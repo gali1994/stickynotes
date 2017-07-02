@@ -1,0 +1,49 @@
+body{
+	font-size: 14px;
+	font-family: "微软雅黑";
+
+}
+.note {
+	position: absolute;
+
+	width: 200px;
+	height: 300px;
+	box-shadow:  0 5px 10px rgba(0,0,0,0.5);
+	background: #FFE73E;
+	padding: 10px;
+}
+.note .close {
+	position: absolute;
+	width: 30px;
+	height: 30px;
+	top: -15px;
+	left: -15px;
+	background: url(img/deleteButton.png) no-repeat;
+	display: none;
+}
+.note:hover .close {
+	display: block;
+} 
+
+.note .editor {
+	position: absolute;
+	bottom: 30px;
+	left: 10px;
+	top: 10px;
+	right: 10px;
+	outline: none;
+	overflow: auto;
+}
+.note .timestamp {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	padding: 0 10px;
+	height: 30px;
+	line-height: 30px;
+	background: #db0;
+	color: #fff;
+	font-size: 12px;
+
+}
